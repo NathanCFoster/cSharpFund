@@ -102,7 +102,7 @@ class SinglyLinkedList {
      * @returns {SinglyLinkedList} This list.
      */
     insertAtBack(data) {
-        if(this.head != null) {
+        if(this.head) {
             let runner = this.head;
             while (runner.next) {
                 runner = runner.next;
